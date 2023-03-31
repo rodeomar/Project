@@ -1,14 +1,16 @@
+// Business logic
 
 function rioList() {
   let input = document.getElementById("number").value;
-  let output = " ";
+  let output = "";
   let list = [];
   for (let i = 0; i <= input; i++) {
     list.push(i);
   }
   output = list.join(",");
-  document.getElementById("result").innerHTML = output;
+  // document.getElementById("result").innerHTML = output;
 
+  // UI logic
   function rioList(num) {
     let output = "";
     for (let i = 0; i <= num; i++) {
@@ -23,10 +25,35 @@ function rioList() {
         output += i + ", ";
       }
     }
-    return output.slice(0,-2); // remove the trailing comma and space
+    return output.slice(0, -2);
   }
   
   let num = parseInt(prompt("Enter a number:"));
-  let list1 = rioList(num);
-
+  let output2 = rioList(num);
+  document.getElementById("result2").innerHTML = output2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
