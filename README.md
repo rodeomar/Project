@@ -17,5 +17,5 @@ Code: rioList(3)
 Expected Output: a little bit more!; 
 
 Test: "It should replace number 1, 2, and 3 when entering more than 10 digits"
-Code: rioList(20)
+Code: rioList(11)
 Expected Output: 0, keep going, keep counting, a little bit more, 4, 5, 6, 7, 8, 9, keep going, keep going

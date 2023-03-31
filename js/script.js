@@ -31,7 +31,6 @@ function rioList() {
   let num = parseInt(prompt("Enter a number:"));
   let output2 = rioList(num);
   document.getElementById("result2").innerHTML = output2;
-  console.log();
 }
 
 
