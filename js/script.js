@@ -8,7 +8,6 @@ function rioList() {
     list.push(i);
   }
   output = list.join(",");
-  // document.getElementById("result").innerHTML = output;
 
   // UI 
   function rioList(num) {
